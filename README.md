@@ -1,24 +1,20 @@
-# Detection LAB
+# Laboratório de Segurança de AD com Splunk, Sysmon e Kali Linux
 
-## Objective
-[Brief Objective - Remove this afterwards]
+## Objectivo
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+O projeto de Segurança de Active Directory teve como objetivo estabelecer um ambiente controlado para simulação e detecção de ataques cibernéticos. O foco principal era ingerir e analisar logs dentro de um sistema de gerenciamento de eventos e informações de segurança (SIEM), gerando telemetria de teste para imitar cenários de ataque do mundo real. Esta experiência prática foi projectada para aprofundar a compreensão da segurança da rede, padrões de ataque e estratégias defensivas. Para a efectivação do laboratório serão usadas as ferramentas Splunk (SIEM), Sysmon, Kali Linux e Atomic Red Team. Nas estações finais serão instalados o Splunk Universal Forwarder e o Sysmon e serão configurados para enviar métricas para o servidor onde estará instalado o Splunk server.
 
-### Skills Learned
+### Habilidades aprendidas
+
+- Compreensão avançada dos conceitos do SIEM e aplicação prática;
+- Proficiência em análise e interpretação de logs de sistemas;
+- Desenvolvimento de pensamento crítico e competências de resolução de problemas em cibersegurança.
+
+### Ferramentas usadas
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
-
-### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+- Security Information and Event Management System (SIEM) - Splunk para ingestão e análise de logs;
+- Kali Linux e Atomic Red Team para simular ataques do mundo real;
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
