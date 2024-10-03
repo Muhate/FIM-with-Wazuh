@@ -38,25 +38,29 @@ The diagram below illustrates how the components will be interconnected
    - **5.1. Setting Up VirtualBox**
 
 For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
-
+<br>
+<br>
+   
    - **5.2: Setting Up Windows 2022 on VirtualBox**
 
 For setting up Windows 2022 on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
+<br>
+<br>
 
    - **5.3: Setting Up Ubuntu Server 24.04.LTS on VirtualBox**
 
 For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Ubuntu-on-VirtualBox">this guide</a>
+<br>
+<br>
 
-
-
-
+   - **5.3: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
 
      - Update the package manager:
-       ```bash
-       sudo apt-get update
+       ```
+       sudo apt update && sudo apt upgrade -y && sudo reboot
        ```
      - Install Wazuh Manager:
-       ```bash
+       ```
        curl -s https://packages.wazuh.com/4.x/ubuntu/KEY.gpg | sudo apt-key add -
        echo "deb http://packages.wazuh.com/4.x/ubuntu/ focal main" | sudo tee /etc/apt/sources.list.d/wazuh.list
        sudo apt-get update
