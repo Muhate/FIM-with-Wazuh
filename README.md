@@ -37,15 +37,15 @@ The diagram below illustrates how the components will be interconnected
 ### 5. Installation Steps
    - **5.1. Setting Up VirtualBox**
 
-For setting up VirtualBox, follow <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
+For setting up VirtualBox, refer to <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 
    - **5.2: Setting Up Windows 2022 on VirtualBox**
 
-For setting up Windows 2022 on VirtualBox, follow <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
+For setting up Windows 2022 on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
 
    - **5.3: Setting Up Ubuntu Server 24.04.LTS on VirtualBox**
 
-For setting up VirtualBox, follow <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
+For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com/Muhate/Install-Ubuntu-on-VirtualBox">this guide</a>
 
 
 
