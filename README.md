@@ -36,8 +36,8 @@ The diagram below illustrates how the components will be interconnected
 
 ### 5. Installation Steps
    - **5.1. Setting Up VirtualBox**
-     - Create VMs using VirtualBox for Wazuh Manager, Elasticsearch, Kibana, and Kali Linux.
-     - Allocate necessary resources (CPU, RAM, etc.) for each VM.
+
+For setting up VirtualBox, follow <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 
    - **5.2: Setting Up Windows 2022 on VirtualBox**
      - Update the package manager:
