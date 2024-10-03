@@ -4,6 +4,7 @@
 
 This home lab project focuses on implementing File Integrity Monitoring (FIM) using Wazuh, an open-source security monitoring solution. The FIM will be implemented for Windows Server 2022 and Ubuntu 24.04. FIM is crucial for maintaining the security and integrity of files on systems by detecting unauthorized changes, which could indicate potential security breaches or system tampering
 
+
 ### Objectives
 
 - Set up a Wazuh server to collect and analyze security data.
@@ -11,38 +12,14 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 - Implement alerting mechanisms to notify administrators of any detected file changes.
 - Generate reports to track changes over time and assess compliance with security policies.
 
-### Ferramentas usadas
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management System (SIEM) - Splunk para ingestão e análise de logs;
-- Kali Linux e Atomic Red Team para simular ataques do mundo real;
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+### Tools and Technologies Used
 
-## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+- **VirtualBox**: Used for creating virtual machines for the lab environment.
+- **Wazuh**: SIEM tool for log management and security monitoring;
+- **Windows Server 2022**: Used as a monitored system;
+- **Ubuntu Server 24.04 LTS**: Used as a monitored system.
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
-
-
-
-## Project Title: **Building a Home Lab with Wazuh for Security Monitoring**
-
-### 1. **Overview**
-   - **Description**: This project involved setting up a home lab environment using Wazuh as a Security Information and Event Management (SIEM) tool. The goal was to monitor security events, analyze logs, and improve overall security posture.
-   - **Objectives**:
-     - To learn how to deploy and configure Wazuh.
-     - To integrate Wazuh with the Elastic Stack for enhanced data visualization.
-     - To set up alerts and notifications for security events.
-
-### 2. **Tools and Technologies Used**
-   - **Wazuh**: SIEM tool for log management and security monitoring.
-   - **Elastic Stack**: Comprising Elasticsearch, Logstash, and Kibana for data storage and visualization.
-   - **VirtualBox**: Used for creating virtual machines for the lab environment.
-   - **Kali Linux**: Penetration testing distribution used to generate test logs.
 
 ### 3. **Lab Setup**
    - **Environment Diagram**: 
