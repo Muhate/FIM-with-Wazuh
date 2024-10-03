@@ -1,11 +1,11 @@
 # File Integrity Monitoring with Wazuh - Windows and Ubuntu
 
-## Description
+### 1. Description
 
 This home lab project focuses on implementing File Integrity Monitoring (FIM) using Wazuh, an open-source security monitoring solution. The FIM will be implemented for Windows Server 2022 and Ubuntu 24.04. FIM is crucial for maintaining the security and integrity of files on systems by detecting unauthorized changes, which could indicate potential security breaches or system tampering
 
 
-### Objectives
+### 2. Objectives
 
 - Set up a Wazuh server to collect and analyze security data.
 - Set up and configure agents on target systems (Windows and Ubuntu) to monitor specific files and directories for changes.
@@ -13,7 +13,7 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 - Generate reports to track changes over time and assess compliance with security policies.
 
 
-### Tools and Technologies Used
+### 3. Tools and Technologies Used
 
 - **VirtualBox**: Used for creating virtual machines for the lab environment.
 - **Wazuh**: SIEM tool for log management and security monitoring;
@@ -21,7 +21,7 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 - **Ubuntu Server 24.04 LTS**: Used as a monitored system.
 
 
-### 3. **Lab Setup**
+### 4. Lab Setup
    - **Environment Diagram**: 
      - (Include a diagram showing the network layout of your lab setup with all VMs and their connections.)
 
@@ -31,12 +31,12 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
      - **Kibana**: For visualizing and analyzing data.
      - **Agent Nodes**: Installed on target systems (e.g., a Kali Linux VM) to collect logs.
 
-### 4. **Installation Steps**
-   - **Step 1: Setting Up Virtual Machines**
+### 5. Installation Steps
+   - **5.1. Setting Up VirtualBox**
      - Create VMs using VirtualBox for Wazuh Manager, Elasticsearch, Kibana, and Kali Linux.
      - Allocate necessary resources (CPU, RAM, etc.) for each VM.
 
-   - **Step 2: Installing Wazuh Manager**
+   - **5.2: Setting Up Windows 2022 on VirtualBox**
      - Update the package manager:
        ```bash
        sudo apt-get update
