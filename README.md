@@ -22,8 +22,12 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 
 
 ### 4. Lab Setup
-   - **Environment Diagram**: 
-     - (Include a diagram showing the network layout of your lab setup with all VMs and their connections.)
+   - **Network Diagram**:
+     
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/32102e17-277c-4aa5-92d3-21637228b6f9" alt="Network Diagram" width="300"/>
+</p>
 
    - **Components**:
      - **Wazuh Manager**: Centralized management console.
