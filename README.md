@@ -32,9 +32,7 @@ The diagram below illustrates how the components will be interconnected
 
    - **Components**:
      - **Wazuh Manager**: Centralized management console.
-     - **Elasticsearch**: For data indexing and storage.
-     - **Kibana**: For visualizing and analyzing data.
-     - **Agent Nodes**: Installed on target systems (e.g., a Kali Linux VM) to collect logs.
+     - **Agent Nodes**: Installed on target systems (Windows and Ubuntu Servers) to collect logs.
 
 ### 5. Installation Steps
    - **5.1. Setting Up VirtualBox**
