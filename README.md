@@ -116,7 +116,7 @@ Example below.
    - [Elastic Stack Documentation](https://www.elastic.co/guide/en/elastic-stack/current/index.html)
 
 ### 12. **Contact Information**
-   - **Name**: Your Name
-   - **Email**: your.email@example.com
-   - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+   - **Name**: Rogério Muhate
+   - **Email**: rbmuhate@gmail.com
+   - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rmuhate)
 
