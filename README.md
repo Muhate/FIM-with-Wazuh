@@ -1,14 +1,15 @@
 # File Integrity Monitoring with Wazuh - Windows and Ubuntu
 
-## Objectivo
+## Description
 
-O projeto de Segurança de Active Directory teve como objetivo estabelecer um ambiente controlado para simulação e detecção de ataques cibernéticos. O foco principal era ingerir e analisar logs dentro de um sistema de gerenciamento de eventos e informações de segurança (SIEM), gerando telemetria de teste para imitar cenários de ataque do mundo real. Esta experiência prática foi projectada para aprofundar a compreensão da segurança da rede, padrões de ataque e estratégias defensivas. Para a efectivação do laboratório serão usadas as ferramentas Splunk (SIEM), Sysmon, Kali Linux e Atomic Red Team. Nas estações finais serão instalados o Splunk Universal Forwarder e o Sysmon e serão configurados para enviar métricas para o servidor onde estará instalado o Splunk server.
+This home lab project focuses on implementing File Integrity Monitoring (FIM) using Wazuh, an open-source security monitoring solution. The FIM will be implemented for Windows Server 2022 and Ubuntu 24.04. FIM is crucial for maintaining the security and integrity of files on systems by detecting unauthorized changes, which could indicate potential security breaches or system tampering
 
-### Habilidades aprendidas
+### Objectives
 
-- Compreensão avançada dos conceitos do SIEM e aplicação prática;
-- Proficiência em análise e interpretação de logs de sistemas;
-- Desenvolvimento de pensamento crítico e competências de resolução de problemas em cibersegurança.
+- Set up a Wazuh server to collect and analyze security data.
+- Set up and configure agents on target systems (Windows and Ubuntu) to monitor specific files and directories for changes.
+- Implement alerting mechanisms to notify administrators of any detected file changes.
+- Generate reports to track changes over time and assess compliance with security policies.
 
 ### Ferramentas usadas
 [Bullet Points - Remove this afterwards]
