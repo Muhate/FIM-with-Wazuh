@@ -1,4 +1,4 @@
-# Laboratório de Segurança de AD com Splunk, Sysmon e Kali Linux
+# File Integrity Monitoring with Wazuh - Windows and Ubuntu
 
 ## Objectivo
 
