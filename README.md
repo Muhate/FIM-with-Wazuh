@@ -40,6 +40,17 @@ The diagram below illustrates how the components will be interconnected
 For setting up VirtualBox, follow <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
 
    - **5.2: Setting Up Windows 2022 on VirtualBox**
+
+For setting up Windows 2022 on VirtualBox, follow <a href="https://github.com/Muhate/Install-Windows-on-VirtualBox">this guide</a>
+
+   - **5.3: Setting Up Ubuntu Server 24.04.LTS on VirtualBox**
+
+For setting up VirtualBox, follow <a href="https://github.com/Muhate/Setting-Up-VirtualBox">this guide</a>
+
+
+
+
+
      - Update the package manager:
        ```bash
        sudo apt-get update
