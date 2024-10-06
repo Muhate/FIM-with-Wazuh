@@ -24,7 +24,7 @@ This home lab project focuses on implementing File Integrity Monitoring (FIM) us
 ### 4. Lab Setup
    - **Network Diagram**:
    
-The diagram below illustrates how the components will be interconnected
+The diagram below illustrates how the components will be interconnected all together, along with their description and IP addresses details.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/32102e17-277c-4aa5-92d3-21637228b6f9" alt="Network Diagram" width="300"/>
