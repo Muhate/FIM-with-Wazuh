@@ -55,16 +55,13 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
 
    - **5.3: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
 
-     - Update the package manager:
+     - After logging into the server, update the package manager:
        ```
        sudo apt update && sudo apt upgrade -y && sudo reboot
        ```
-     - Install Wazuh Manager:
+     - Install Wazuh Manager and all other components:
        ```
-       curl -s https://packages.wazuh.com/4.x/ubuntu/KEY.gpg | sudo apt-key add -
-       echo "deb http://packages.wazuh.com/4.x/ubuntu/ focal main" | sudo tee /etc/apt/sources.list.d/wazuh.list
-       sudo apt-get update
-       sudo apt-get install wazuh-manager
+       curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
        ```
 
    - **Step 3: Configuring Wazuh**
@@ -73,9 +70,6 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
        ```bash
        sudo systemctl restart wazuh-manager
        ```
-
-   - **Step 4: Installing Elasticsearch and Kibana**
-     - Follow similar steps to install and configure Elasticsearch and Kibana.
 
 ### 5. **Generating Test Data**
    - **Kali Linux Testing**: 
