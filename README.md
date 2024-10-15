@@ -29,6 +29,9 @@ The diagram below illustrates how the components will be interconnected all toge
 <p align="center">
   <img src="https://github.com/user-attachments/assets/32102e17-277c-4aa5-92d3-21637228b6f9" alt="Network Diagram" width="300"/>
 </p>
+<p align="center">
+<img width="300" alt="Network Diagram" src="https://github.com/user-attachments/assets/d4e4da42-b979-432c-a39f-8d0aa15bf3a8">
+</p>
 
    - **Components**:
      - **Wazuh Manager**: Centralized management console.
