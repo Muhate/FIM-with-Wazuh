@@ -63,6 +63,17 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
        ```
        curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
        ```
+       
+   - **5.4: Deploy agent on Windows Server 2022**
+     
+     - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **d**:
+
+<p align="center">
+<img width="300" alt="Network Diagram" src="https://github.com/user-attachments/assets/d4e4da42-b979-432c-a39f-8d0aa15bf3a8">
+</p>
+
+   <img width="950" alt="image" src="https://github.com/user-attachments/assets/412eeb7d-b1e0-4516-a94f-e23db95c5203">
+
 
    - **Step 3: Configuring Wazuh**
      - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
