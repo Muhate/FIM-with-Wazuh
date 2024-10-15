@@ -72,7 +72,11 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
 <img width="643" alt="Agent deployment" src="https://github.com/user-attachments/assets/075b542a-1a3e-400e-95ce-61b0e59aed0f">
 </p>
 
-After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked ein the following screen as shown in the images below:
+After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked in the following screen as shown in the images below:
+
+<p align="center">
+<img width="643" alt="details filled" src="https://github.com/user-attachments/assets/25feca57-5086-4d69-93db-4a9a0d366562">
+</p>
 
 
 
