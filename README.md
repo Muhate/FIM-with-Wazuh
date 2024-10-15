@@ -69,8 +69,10 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
 
 <p align="center">
-<img width="700" alt="Agent deployment" src="https://github.com/user-attachments/assets/67a1432a-aa37-476c-9d84-607309609ac8">
+<img width="643" alt="Agent deployment" src="https://github.com/user-attachments/assets/075b542a-1a3e-400e-95ce-61b0e59aed0f">
 </p>
+
+After clicking the **Deploy new agent** button, choose the operating system and fill all the details asked ein the following screen as shown in the images below:
 
 
 
