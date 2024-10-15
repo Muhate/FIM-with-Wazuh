@@ -53,7 +53,7 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
 <br>
 <br>
 
-   - **5.3: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
+   - **5.4: Setting Up Wazuh Manager on Ubuntu Server 24.04 LTS**
 
      - After logging into the server, update the package manager:
        ```
@@ -64,7 +64,7 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
        curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
        ```
        
-   - **5.4: Deploy agent on Windows Server 2022**
+   - **5.5: Deploy agent on Windows Server 2022**
      
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
 
@@ -72,7 +72,8 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
 <img width="300" alt="Network Diagram" src="https://github.com/user-attachments/assets/d4e4da42-b979-432c-a39f-8d0aa15bf3a8">
 </p>
 
-   <img width="700" alt="image" src="https://github.com/user-attachments/assets/412eeb7d-b1e0-4516-a94f-e23db95c5203">
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/4d636147-6718-49ad-8ce6-62bfd97c0d16">
+
 
 
    - **Step 3: Configuring Wazuh**
