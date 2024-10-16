@@ -163,6 +163,20 @@ After all, we edit the file **ossec.conf** located at **/var/ossec/etc** directo
        ```bash
        <directories check_all="yes" whodata="yes" report_changes="yes">/home</directories>
        ```
+File added Ubuntu
+
+<img width="852" alt="image" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
+
+
+File modfied
+
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/807ff532-3f78-47c7-8dfe-b0f2a6a72d23">
+
+Text added
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/b8c1c2ad-f602-4d30-aee7-95f2601a8741">
+
+
 
 
    - **Step 3: Configuring Wazuh**
