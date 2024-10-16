@@ -78,7 +78,13 @@ After clicking the **Deploy new agent** button, choose the operating system and 
 <img width="643" alt="details filled" src="https://github.com/user-attachments/assets/25feca57-5086-4d69-93db-4a9a0d366562">
 </p>
 
+After running all the given commands on your windows machine, click the **Close** button and check for the connectivity between the manager and the agent, the screen should look like the image below.
 
+<p align="center">
+<img width="643" alt="Agent showing in the manager" src="https://github.com/user-attachments/assets/f0bde5d7-4bd3-45d4-b328-493762fbce9b">
+</p>
+
+If not showing as **active** wait for some minutes and refresh the page.
 
    - **Step 3: Configuring Wazuh**
      - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
