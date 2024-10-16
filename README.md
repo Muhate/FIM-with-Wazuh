@@ -64,7 +64,7 @@ For setting up Ubuntu Server on VirtualBox, refer to <a href="https://github.com
        curl -sO https://packages.wazuh.com/4.9/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
        ```
        
-   - **5.5: Deploy agent on Windows Server 2022**
+   - **5.5: File Integrity Monitoring on Windows Server 2022**
      
      - After logging into the wazuh dashboard, deploy the agent following the steps indicated in the image below and then hit the button **Deploy new agent**:
 
@@ -134,6 +134,35 @@ So, open the file and type any text, in this case the example will be ***This is
 </p>
 
 As can be seen in the image above, we can see even when the file is edited. We still see number 1 - the user, number 2 - the content added, number 3 - the operation, number 4 - the amount of characters after the modification and number 5 - the amount of characters before the modification.
+
+
+
+   - **5.6: File Integrity Monitoring on Ubuntu 24.04 Server**
+
+To deploy the agent on Ubuntu, we follow the same steps as for Windows, we just change the Operating System we choose and run the commands that will be shown.
+On the wazuh manager server, we change the file **ossec.conf** at the directory **/var/ossec/etc** and we change the below values from **no** to **yes**
+
+´´´
+  <global>
+...
+    <logall>yes</logall>
+    <logall_json>yes</logall_json>
+...
+  </global>
+´´´
+
+If we want to monitor the changes and know the user that made them, we need to install the audit daemon, if not installed yet. For that, we use the commands below on the machine being monitored:
+
+       ```
+       apt install auditd audispd-plugins -y
+       systemctl restart auditd
+       ```
+
+After all, we edit the file **ossec.conf** located at **/var/ossec/etc** directory and in the section **File Integrity Moniotring** we add the line below:
+
+       ```
+       <directories check_all="yes" whodata="yes" report_changes="yes">/home</directories>
+       ```
 
 
    - **Step 3: Configuring Wazuh**
