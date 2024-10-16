@@ -116,7 +116,13 @@ Inside, we created one folder and one file, called **Test Folder** and **Test fi
 Now you can see the changes, see how we can see the file created.
 
 <p align="center">
-<img width="643" alt="File created" src="https://github.com/user-attachments/assets/9a5e0f83-be38-43a1-8c5c-db4b3d3b8dc9">
+<img width="643" alt="File created" src="https://github.com/user-attachments/assets/c29dae44-92a4-4d37-affe-4150fc112139">
+</p>
+
+Down below we can see the details given by the **whodata** feature enabled. 1 - We can see the user, 2 - we see the operation made by the user and 3 - we see the file created.
+
+<p align="center">
+<img width="457" alt="Details about whodata" src="https://github.com/user-attachments/assets/1f926183-a0f7-4547-995c-f527015ae70d">
 </p>
 
 
