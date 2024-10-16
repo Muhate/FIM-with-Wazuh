@@ -125,6 +125,16 @@ Down below we can see the details given by the **whodata** feature enabled. 1 - 
 <img width="457" alt="Details about whodata" src="https://github.com/user-attachments/assets/1f926183-a0f7-4547-995c-f527015ae70d">
 </p>
 
+Let now make some changes on the file and see if the wazuh will trigger them.
+So, open the file and type any text, in this case the example will be ***This is an example of adding some text on the file***
+
+
+<p align="center">
+<img width="457" alt="File modification example" src="https://github.com/user-attachments/assets/83adc4c0-ec55-47e2-b3eb-78ce4d7c2746">
+</p>
+
+As can be seen in the image above, we can see even when the file is edited. We still see number 1 - the user, number 2 - the content added, number 3 - the operation, number 4 - the amount of characters after the modification and number 5 - the amount of characters before the modification.
+
 
    - **Step 3: Configuring Wazuh**
      - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
