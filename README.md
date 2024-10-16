@@ -86,6 +86,14 @@ After running all the given commands on your windows machine, click the **Close*
 
 If not showing as **active** wait for some minutes and refresh the page.
 
+   - **5.6: Configure the agent to monitor the files or folders you intend to moniotr**
+Now that we already deployed the agent, let configure it. The configurations will be made on the file **ossec.conf** located at "C:\Program Files (x86)\ossec-agent". Before we change any configuration on it, it is a best practice to make a backup of the file, so copy and rename the file so that anything going wrong we can be able to revert to our functional version. For this demonstration we will be monitoring the folder "**C:\Users**", but you are free to choose another directory. So locate the section with **File integrity monitoring** and add the content below inside of that:
+
+       ```
+       <directories check_all="yes" whodata="yes" report_changes="yes">C:\Users</directories>
+       ```
+
+
    - **Step 3: Configuring Wazuh**
      - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
      - Restart Wazuh Manager:
