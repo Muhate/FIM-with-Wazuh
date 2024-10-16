@@ -87,11 +87,36 @@ After running all the given commands on your windows machine, click the **Close*
 If not showing as **active** wait for some minutes and refresh the page.
 
    - **5.6: Configure the agent to monitor the files or folders you intend to moniotr**
-Now that we already deployed the agent, let configure it. The configurations will be made on the file **ossec.conf** located at "C:\Program Files (x86)\ossec-agent". Before we change any configuration on it, it is a best practice to make a backup of the file, so copy and rename the file so that anything going wrong we can be able to revert to our functional version. For this demonstration we will be monitoring the folder "**C:\Users**", but you are free to choose another directory. So locate the section with **File integrity monitoring** and add the content below inside of that:
+Now that we already deployed the agent, let configure it. The configurations will be made on the file **ossec.conf** located at **C:\Program Files (x86)\ossec-agent**. Before we change any configuration on it, it is a best practice to make a backup of the file, so copy and rename the file so that anything going wrong we can be able to revert to our functional version. For this demonstration we will be monitoring the folder **C:\Users**, but you are free to choose another directory. So locate the section with **File integrity monitoring** and add the content below inside of that:
 
        ```
        <directories check_all="yes" whodata="yes" report_changes="yes">C:\Users</directories>
        ```
+
+After editing the configuration file, save it and restart the agent. Go to **seacrh bar**, type **services** and hit **ENTER**. Locate the service called **wazuh**, right click on it and choose **restart**, or on powerShell run the below commands:
+
+       ```
+       NET STOP WazuhSvc
+       NET START WazuhSvc
+       ```
+After that, check if is there any event on the manager, following the steps shown in the image below, then go to **Events**.
+
+<p align="center">
+<img width="643" alt="Check events" src="https://github.com/user-attachments/assets/ef71fc09-fa99-4f2e-a1b7-8472940853da">
+</p>
+
+If you followed everything from the beginning, you will notice that there is no event triggered, that because we didn't make any modification yet. Let us create a file inside the folder **C:\Users** and check if we will have any event.
+Inside, we created one folder and one file, called **Test Folder** and **Test file**, as shown below. Go and see again the **Events** under **File Integrity Monitoring**.
+
+<p align="center">
+<img width="421" alt="File and Folder created" src="https://github.com/user-attachments/assets/5bd8d3a8-2086-469d-b9ed-42ddea105a51">
+</p>
+
+Now you can see the changes, see how we can see the file created.
+
+<p align="center">
+<img width="643" alt="File created" src="https://github.com/user-attachments/assets/9a5e0f83-be38-43a1-8c5c-db4b3d3b8dc9">
+</p>
 
 
    - **Step 3: Configuring Wazuh**
