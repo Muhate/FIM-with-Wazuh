@@ -99,6 +99,7 @@ After editing the configuration file, save it and restart the agent. Go to **sea
        NET STOP WazuhSvc
        NET START WazuhSvc
        ```
+
 After that, check if is there any event on the manager, following the steps shown in the image below, then go to **Events**.
 
 <p align="center">
