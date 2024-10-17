@@ -95,11 +95,10 @@ Now that we already deployed the agent, let configure it. The configurations wil
 
 After editing the configuration file, save it and restart the agent. Go to **seacrh bar**, type **services** and hit **ENTER**. Locate the service called **wazuh**, right click on it and choose **restart**, or on powerShell run the below commands:
 
-       ```bash
-       sudo apt update && sudo apt upgrade -y && sudo reboot
-       NET STOP WazuhSvc
-       NET START WazuhSvc
-       ```
+```
+NET STOP WazuhSvc
+NET START WazuhSvc
+```
 
 
 After that, check if is there any event on the manager, following the steps shown in the image below, then go to **Events**.
