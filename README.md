@@ -97,9 +97,6 @@ After editing the configuration file, save it and restart the agent. Go to **sea
 
        ```bash
        <directories check_all="yes" whodata="yes" report_changes="yes">C:\Users\Public</directories>
-       ```
-
-       ```
        NET STOP WazuhSvc
        NET START WazuhSvc
        ```
