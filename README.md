@@ -161,12 +161,19 @@ After all, we edit the file **ossec.conf** located at **/var/ossec/etc** directo
        <directories check_all="yes" whodata="yes" report_changes="yes">/home</directories>
 ```
 
-File added Ubuntu
+After the configuration made, we can now go to our machine and add some file so that we can see the manager trigger this addition, run the following commands:
 
-<img width="852" alt="image" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
+```
+cd /home
+touch test.txt
+```
+Then go to the manager and check the file created
 
+<p align="center">
+<img width="852" alt="File added" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
+</p>
 
-File modfied
+Now, modify the file, or add some text on it
 
 <img width="853" alt="image" src="https://github.com/user-attachments/assets/807ff532-3f78-47c7-8dfe-b0f2a6a72d23">
 
