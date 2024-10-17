@@ -173,17 +173,24 @@ Then go to the manager and check the file created
 <img width="852" alt="File added" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
 </p>
 
-Now, modify the file, or add some text on it
+Now, modify the file, or add some text on it. Go back to the manager and you will see the action, see the image below.
 
-<img width="853" alt="image" src="https://github.com/user-attachments/assets/807ff532-3f78-47c7-8dfe-b0f2a6a72d23">
+<p align="center">
+<img width="853" alt="File added" src="https://github.com/user-attachments/assets/807ff532-3f78-47c7-8dfe-b0f2a6a72d23">
+</p>
 
-Text added
+Expanding the trigger, you can see the text added. Number 1 - The user who made the change, number 2 - the directory on which the change was made, number 3 - the text added and number 4 - the operation.
 
-<img width="410" alt="image" src="https://github.com/user-attachments/assets/b8c1c2ad-f602-4d30-aee7-95f2601a8741">
+<p align="center">
+<img width="410" alt="File added" src="https://github.com/user-attachments/assets/b8c1c2ad-f602-4d30-aee7-95f2601a8741">
+</p>
 
 
 ### 6. **Conclusion**
-   - This project successfully demonstrated the deployment of Wazuh in a lab environment, providing valuable insights into security monitoring and log analysis.
+   - This project successfully demonstrated:
+-- The deployment of wazuh server, along with manager, indexer and dashboard, on Ubuntu 24.04 Server;
+-- The deployment of wazuh agent on Ubuntu 24.04 Server and Windows Server 2022;
+-- The File Integrity Monitoring on both Windows and Ubuntu.
 
 
 ### 7. **Contact Information**
