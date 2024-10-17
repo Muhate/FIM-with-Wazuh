@@ -144,14 +144,14 @@ As can be seen in the image above, we can see even when the file is edited. We s
 To deploy the agent on Ubuntu, we follow the same steps as for Windows, we just change the Operating System we choose and run the commands that will be shown.
 On the wazuh manager server, we change the file **ossec.conf** at the directory **/var/ossec/etc** and we change the below values from **no** to **yes**
 
-  <global>
+"""  <global>
 ....
     <logall>yes</logall>
     <logall_json>yes</logall_json>
 ....
   </global>
-
-If we want to monitor the changes and know the user that made them, we need to install the audit daemon, if not installed yet. For that, we use the commands below on the machine being monitored:
+"""
+If we want to monitor the changes and know the user that made them, we need to install the audit daemon on the monitored system, if not installed yet. For that, we use the commands below on the machine being monitored:
 
 ```
        apt install auditd audispd-plugins -y
