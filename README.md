@@ -95,6 +95,10 @@ Now that we already deployed the agent, let configure it. The configurations wil
 
 After editing the configuration file, save it and restart the agent. Go to **seacrh bar**, type **services** and hit **ENTER**. Locate the service called **wazuh**, right click on it and choose **restart**, or on powerShell run the below commands:
 
+       ```bash
+       <directories check_all="yes" whodata="yes" report_changes="yes">C:\Users\Public</directories>
+       ```
+
        ```
        NET STOP WazuhSvc
        NET START WazuhSvc
