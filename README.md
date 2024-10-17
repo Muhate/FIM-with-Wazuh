@@ -188,9 +188,15 @@ Expanding the trigger, you can see the text added. Number 1 - The user who made 
 
 ### 6. **Conclusion**
    - This project successfully demonstrated:
+<p>
 -- The deployment of wazuh server, along with manager, indexer and dashboard, on Ubuntu 24.04 Server;
+</p>
+<p>
 -- The deployment of wazuh agent on Ubuntu 24.04 Server and Windows Server 2022;
+</p>
+<p>
 -- The File Integrity Monitoring on both Windows and Ubuntu.
+</p>
 
 
 ### 7. **Contact Information**
