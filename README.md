@@ -153,16 +153,17 @@ On the wazuh manager server, we change the file **ossec.conf** at the directory 
 
 If we want to monitor the changes and know the user that made them, we need to install the audit daemon, if not installed yet. For that, we use the commands below on the machine being monitored:
 
-       ```bash
+```
        apt install auditd audispd-plugins -y
        systemctl restart auditd
-       ```
+```
 
 After all, we edit the file **ossec.conf** located at **/var/ossec/etc** directory and in the section **File Integrity Moniotring** we add the line below:
 
-       ```bash
+```
        <directories check_all="yes" whodata="yes" report_changes="yes">/home</directories>
-       ```
+```
+
 File added Ubuntu
 
 <img width="852" alt="image" src="https://github.com/user-attachments/assets/8f0ee502-807d-4307-be60-5178a1337e85">
@@ -177,50 +178,11 @@ Text added
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/b8c1c2ad-f602-4d30-aee7-95f2601a8741">
 
 
-
-
-   - **Step 3: Configuring Wazuh**
-     - Modify the configuration file (`/var/ossec/etc/ossec.conf`) to set up agents and alerts.
-     - Restart Wazuh Manager:
-       ```bash
-       sudo systemctl restart wazuh-manager
-       ```
-
-### 5. **Generating Test Data**
-   - **Kali Linux Testing**: 
-     - Execute various tests to generate logs (e.g., using Metasploit, Nmap).
-     - Sample command to generate logs:
-       ```bash
-       nmap -sS -p 1-65535 <target_ip>
-       ```
-
-### 6. **Results and Analysis**
-   - **Data Visualization**: 
-     - Showcase screenshots of dashboards in Kibana that display security events, logs, and alerts.
-   - **Alerts Configuration**:
-     - Explain how alerts were configured in Wazuh and provide examples of alerts generated during testing.
-
-### 7. **Challenges and Solutions**
-   - **Challenge**: Difficulty in integrating Wazuh with Elastic Stack.
-     - **Solution**: Consulted official documentation and community forums, which helped resolve configuration issues.
-
-### 8. **Lessons Learned**
-   - Gained hands-on experience in setting up a complete SIEM solution.
-   - Improved understanding of log analysis and incident response workflows.
-
-### 9. **Future Improvements**
-   - Plan to integrate additional data sources (e.g., firewalls, web servers).
-   - Explore automated incident response mechanisms using Wazuh.
-
-### 10. **Conclusion**
+### 6. **Conclusion**
    - This project successfully demonstrated the deployment of Wazuh in a lab environment, providing valuable insights into security monitoring and log analysis.
 
-### 11. **Links and References**
-   - [GitHub Repository](https://github.com/username/wazuh-lab)
-   - [Wazuh Official Documentation](https://wazuh.com/documentation/)
-   - [Elastic Stack Documentation](https://www.elastic.co/guide/en/elastic-stack/current/index.html)
 
-### 12. **Contact Information**
+### 7. **Contact Information**
    - **Name**: Rogério Muhate
    - **Email**: rbmuhate@gmail.com
    - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/rmuhate)
